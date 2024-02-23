@@ -11,10 +11,10 @@ const Nav = () => {
     
 
   return (
-    <div className='border-2 border-red-700 h-[8vh] flex flex-row justify-center items-center bg-mainBg'>
+    <div className=' h-[8vh] flex flex-row justify-center items-center bg-mainBg'>
         
         {/* logo */}
-        <div className='w-[20%] md:w-[10%] border border-black h-full'>
+        <div className='w-[20%] md:w-[10%]  h-full'>
             <Link>
             <img src="" alt="Logo" />
             </Link>
