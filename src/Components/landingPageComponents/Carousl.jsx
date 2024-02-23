@@ -75,8 +75,7 @@ const Carousl = () => {
                             <button className='w-[40%] pt-1 pb-1 md:pt-4 md:pb-4 bg-mainBg text-white  font-semibold  rounded-sm'> <Link to="/aboutUs">Find Blood</Link></button>
                             <button className='w-[50%] bg-mainBg text-white font-semibold pt-1 pb-1 rounded-sm'> <Link to="/aboutUs">Donate Blood</Link></button>
                         </div>
-                </div> 
-
+                </div>              
                 <div className='w-[40%] h-full'>
                     <img src={doc1} alt="" className='w-full h-full object-cover object-center' />
                 </div>
