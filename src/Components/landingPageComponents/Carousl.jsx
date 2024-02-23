@@ -16,7 +16,7 @@ const Carousl = () => {
     }, []);
 
   return (
-    <div className=' w-full h-[30vh] md:h-[80vh]'>
+    <div className=' w-full h-[30vh] md:h-[80vh] relative bg-fourthMainBg'>
         {
             currentItem === 1  ?(
                 <div className='absolute top-[50%] right-[0%] z-10  p-3 rounded-full w-[10%] md:w-[3%] items-center text-2xl bg-slate-400' onClick={()=>setCurrentItem(currentItem+1)} >

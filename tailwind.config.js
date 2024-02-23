@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'mainBg': '#A6F4FA',
+        'mainBg': '#645CAA',
+        'secondMainBg':'#A084CA',
+        'thirdMainBg':'#BFACE0',
+        'fourthMainBg':'#EBC7E8',
       },
     },
   },
