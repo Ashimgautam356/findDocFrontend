@@ -11,12 +11,12 @@ const Nav = () => {
     
 
   return (
-    <div className=' h-[8vh] flex flex-row justify-center items-center bg-mainBg'>
+    <div className=' h-[8vh] flex flex-row py-2 justify-center items-center bg-[#235884] text-white'>
         
         {/* logo */}
-        <div className='w-[20%] md:w-[10%]  h-full'>
+        <div className='w-[20%] md:w-[20%] text-xl full font-bold grid place-items-center'>
             <Link>
-            <img src="" alt="Logo" />
+            Health Sewa
             </Link>
         </div>
        
@@ -24,9 +24,9 @@ const Nav = () => {
         <div className='w-[70%] md:w-[80%] h-full  flex flex-row justify-end md:justify-evenly items-center'>
             
             {/* input section */}
-            <div className='hidden md:block md:w-[50%] h-[70%] '>
-                <input type="text" className='focus:outline-none h-full w-[60%] p-2 md:text-xl text-sm' placeholder='Lumbini Hospital'/>
-                <input type="submit" className='p-0 w-[40%] h-full bg-red-700 text-white text-sm'/>
+            <div className='hidden md:flex md:w-[50%] h-[70%]'>
+                <input type="text" className='focus:outline-none h-full w-[60%] p-2 mr-2 md:text-base text-sm text-black rounded-md' placeholder='Lumbini Hospital'/>
+                <input type="submit" className='p-0 w-[20%] h-full rounded-md border-2 border-white text-white text-sm'/>
             </div>
 
             {/* navlinks */}
