@@ -23,10 +23,9 @@ const Footer = () => {
         <ul className='font-bold text-gray-400'>
           <li>About Us</li>
           <li>FAQS</li>
-<li>Blogs</li>
-<li>Why Use</li>
-<li>Contact</li>
-      
+          <li>Blogs</li>
+          <li>Why Use</li>
+          <li>Contact</li>
         </ul>
       </div>
       <div>
