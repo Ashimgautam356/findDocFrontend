@@ -11,7 +11,7 @@ const Nav = () => {
     
 
   return (
-    <div className=' h-[8vh] flex flex-row justify-center items-center bg-mainBg'>
+    <div className=' h-[8vh] flex flex-row justify-center items-center bg-[#235884] text-white'>
         
         {/* logo */}
         <div className='w-[20%] md:w-[10%]  h-full'>

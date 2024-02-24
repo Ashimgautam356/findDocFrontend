@@ -16,7 +16,7 @@ const Carousl = () => {
     }, []);
 
   return (
-    <div className=' w-full h-[30vh] md:h-[80vh] relative bg-fourthMainBg'>
+    <div className=' w-full h-[30vh] md:h-[80vh] relative bg-[#EEF6F8]'>
         {
             currentItem === 1  ?(
                 <div className='absolute top-[50%] right-[0%] z-10  p-3 rounded-full w-[10%] md:w-[3%] items-center text-2xl bg-slate-400' onClick={()=>setCurrentItem(currentItem+1)} >
@@ -47,7 +47,7 @@ const Carousl = () => {
                 <div className=' flex flex-row justify-center items-center w-full h-full' >
                     <div className='w-[60%] h-full'>
                         <div className='p-4 md:p-20'>
-                            <h1 className='mb-3 md:mb-10 text-2xl md:text-6xl font-bold tracking-wider text-blue-600 '>Find My Doctor</h1>
+                            <h1 className='mb-3 md:mb-10 text-2xl md:text-6xl font-bold tracking-wider text-[#235884] '>Find My Doctor</h1>
                             <p className=' text-sm md:text-2xl w-full md    :w-[60%]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quidem nesciunt consectetur aut aspernatur perferendis libero ipsam laboriosam et magnam eius blanditiis numquam iste, ad repellat tempore? Adipisci, ducimus id.</p>
                         </div>
 
@@ -68,7 +68,7 @@ const Carousl = () => {
                 <div className='w-[60%] h-full'>
                         <div className='p-4 md:p-20'>
                             <h1 className='mb-3 md:mb-10 text-2xl md:text-6xl font-bold tracking-wider text-red-600 '>Search  Blood</h1>
-                            <p className=' text-sm md:text-2xl w-full md:w-[60%]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quidem nesciunt consectetur aut aspernatur perferendis libero ipsam laboriosam et magnam eius blanditiis numquam iste, ad repellat tempore? Adipisci, ducimus id.</p>
+                            <p className=' text-sm md:text-2xl w-full'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quidem nesciunt consectetur aut aspernatur perferendis libero ipsam laboriosam et magnam eius blanditiis numquam iste, ad repellat tempore? Adipisci, ducimus id.</p>
                         </div>
                     
                         <div className=' ml-4 md:ml-20  w-[80%] md:w-[60%] flex flex-row justify-between text-sm md:text-2xl'>
